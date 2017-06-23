@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="../js/angular.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/signup.css">
+<script src="../js/pageView.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChatterBox</title>
+</head>
+<body ng-app="pageView">
+<div class="w3-bar w3-border w3-card-4 w3-black navbar_padding">
+    <a ui-sref="#" class="w3-bar-item w3-button w3-hover-teal w3-right">Link2</a>
+    <a ui-sref="#" class="w3-bar-item w3-button w3-hover-teal w3-right">Link1</a>
+    <a ui-sref="register" class="w3-bar-item w3-button w3-hover-teal w3-right">Register</a>
+    <a ui-sref="login" class="w3-bar-item w3-button w3-hover-teal w3-right">Login</a>
+</div>
+<br><br><br>
+<div class="row pad">
+    <div class="container col-md-6 box">
+        <div class="jumbotron">
+            <h1 class="text-center">ChatterBox</h1>
+            <p class="text-center">This website is for exchanging messages and contents with your loved ones</p>
+        </div>
+    </div>
+    <div class="container col-md-6">
+        <div ui-view></div>
+    </div>
+</div>
+</body>
+
+</html>
