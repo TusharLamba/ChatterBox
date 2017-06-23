@@ -1,0 +1,31 @@
+/*.navbar_padding {
+    padding-top : 20px;
+}*/
+div.signup {
+    width : 90%;
+    float : left;
+    margin-left : 50px;
+}
+div.box {
+    width : 40%;
+    float : right;
+}
+div.pad {
+    padding : 15px 30px 15px 30px;
+}
+
+.padleft {
+    padding-left : 15px;
+}
+.register {
+    width : 100%;
+    float : left;
+    margin-left : 50px;
+}
+.radio {
+    margin-left : 15px;
+}
+.width_input {
+    width : 215px
+}
+

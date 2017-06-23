@@ -1,0 +1,21 @@
+<div class="container signup" ng-controller="btnCtrl">
+<h1 class="padleft">Login to Your Account</h1><br>
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="user" class="col-sm-2 control-label">Username</label>
+        <div class="col-sm-12">
+            <input class="form-control" type="text" id="user" ng-model="username" placeholder="Username">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="pass" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-12">
+            <input class="form-control" type="password" id="pass" ng-model="password" placeholder="Password">
+        </div>
+    </div><br>
+    <div class="form-group padleft">
+        <button class="form-control col-sm-4 btn btn-success" style="margin:auto;display:block;" ng-disabled="check()" type="submit" id="login">Login</button>
+    </div>
+    </div>
+</form>
+</div>
